@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  flex-direction: column;
+  display: flex;
+  background-image: url("numbers.jpg");
+  width: 100%;
+  height: auto;
+}
+#skaitlis {
+  box-sizing: border-box;
+  font-size: 40px;
+  display: flex;
+  color: yellowgreen;
+  position: absolute;
+  left: 125px;
+  top: 340px;
+}
+#cipari {
+  box-sizing: border-box;
+  font-size: 40px;
+  display: flex;
+  color: yellowgreen;
+  position: absolute;
+  left: 130px;
+  top: 410px;
+  width: 3%;
+  outline: none;
+  border: solid 1px yellowgreen;
+}
+#cipari:active,
+#cipari:hover,
+#cipari:focus {
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+#rezultats {
+  position: absolute;
+  top: 360px;
+  left: 700px;
+  color: olivedrab;
+}
+.poga {
+  background-color: aquamarine;
+  border: solid 1px olive;
+  width: 100px;
+  height: 30px;
+  border-radius: 50px;
+  box-shadow: 10px black;
+  outline-style: none;
+}
+.poga:active {
+  background-color: olive;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  opacity: 80%;
+  border-radius: 50px;
+}
+.poga:focus {
+  background-color: olivedrab;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  border-radius: 50px;
+  opacity: 80%;
+}
+.poga:hover {
+  background-color: olivedrab;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  opacity: 90%;
+  border-radius: 50px;
+}
+.podzina {
+  position: absolute;
+  top: 420px;
+  left: 200px;
+  z-index: 1000;
+  border-radius: 10px;
+}

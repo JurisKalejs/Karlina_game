@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="uzmini.css" />
+    <title>Karlinas minēšana</title>
+  </head>
+  <body>
+    <canvas id="myCanvas" width="800" height="800"></canvas>
+    <h1 id="skaitlis">Uzmini skaitli no 1 līdz 10</h1>
+    <form name="myform" id="mini" onsubmit="validate(event)" action="#">
+      <input type="text" value="" name="num" id="cipari" />
+      <!-- <input type="text" name="num" /><span id="numloc"></span><br /> -->
+      <div class="podzina">
+        <input
+          class="poga"
+          type="button"
+          onclick="validate(event)"
+          value="Mini :)"
+        />
+        
+      </div>
+    </form>
+    <h1 id="rezultats"></h1>
+    <script src="uzmini.js"></script>
+  </body>
+</html>
